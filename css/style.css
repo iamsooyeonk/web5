@@ -1,0 +1,35 @@
+@charset "UFT-8";
+@import url(./reset.css);
+
+#wrap {width:100%;}
+#wrap #header {width:100%;height:100px;background:#f0f0f0;position:relative;z-index:3;}
+#wrap #header .container {width:1200px;height:100px;margin:0 auto;position:relative;}
+/* 서브메뉴배경 */
+#wrap #header .container .sub-bg {position:absolute;top:99px;left:0;z-index:1;width:100%;height:160px;background:#333;display:none;}
+
+#wrap #header .container .wrap {width:100%;height:100px;display:flex;position:relative;z-index:2;}
+#wrap #header .container .wrap #logo {width:200px;height:100px;}
+#wrap #header .container .wrap #logo a img {display:block;width:100%;height:40px;margin:30px 0}
+
+#wrap #header .container .wrap #nav {width:1000px;height:100px;}
+#wrap #header .container .wrap #nav > ul {width:700px;display:flex;margin:50px 0 0 auto;}
+#wrap #header .container .wrap #nav > ul > li {width:25%;height:50px;border:1px solid #ccc;border-radius:10px 10px 0 0;}
+#wrap #header .container .wrap #nav > ul > li > a {display:block;width:100%;height:100%;text-align:center;font-size:15px;font-weight:600;line-height:50px;background:#fff;color:#111;transition:all .3s;border-radius:10px 10px 0 0;}
+#wrap #header .container .wrap #nav > ul > li > a:hover {color:#fff;background:#333;}
+#wrap #header .container .wrap #nav > ul > li > a.on {color:#fff;background:#333;}
+
+#wrap #header .container .wrap #nav > ul > li > .sub {width:100%;display:none;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul {width:100%;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li {width:100%;line-height:40px;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li a {display:block;width:100%;height:38px;text-align:center;color:#fff;background:#333;transition:all .3s;}
+#wrap #header .container .wrap #nav > ul > li > .sub ul li a:hover {background:#d0d0d0;color:#333;}
+
+
+#wrap #main {width:100%;height:100%;position:relative;z-index:2;}
+#wrap #main #section1 {width:100%;height:300px;}
+#wrap #main #section1 .container {width:1200px;height:300px;background:#ccf;margin:0 auto;}
+#wrap #main #section2 {width:100%;height:200px;}
+#wrap #main #section2 .container {width:1200px;height:200px;background:#cfc;margin:0 auto;}
+
+#wrap #footer {width:100%;height:100px;background:#69d;position:relative;z-index:1;}
+#wrap #footer .container {width:1200px;height:100px;background:#cff;margin:0 auto;}
